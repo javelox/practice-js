@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras Geométricas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Figuras Geométricas</h1>
+      <p>Bienvenido a la calculadora matemática</p>
+    </header>
+    <section>
+      <h2>Calcula el área y perímetro de un cuadrado</h2>
+      <form action="">
+        <label for="inputCuadrado"
+          >Escribe cuanto mide cada lado de tu cuadrado:</label
+        >
+        <input id="inputCuadrado" type="number" />
+        <button id="perimetroCuadrado" type="button">
+          Cacular el perímetro
+        </button>
+        <button id="areaCuadrado" type="button">Calcular el área</button>
+      </form>
+      <h2>Calcula el perímetro de un triángulo</h2>
+      <form action="">
+        <label for="inputTriangulolado1">Medida lado 1:</label>
+        <input type="number" name="" id="inputTriangulolado1" />
+        <label for="inputTriangulolado2">Medida lado 2:</label>
+        <input type="number" name="" id="inputTriangulolado2" />
+        <label for="inputTrianguloBase">Medida base:</label>
+        <input type="number" name="" id="inputTrianguloBase" />
+        <input
+          type="button"
+          value="Calcular el perímetro"
+          id="perimetroTriangulo"
+        />
+      </form>
+      <h2>Calcula el área de un triángulo</h2>
+      <form action="">
+        <label for="inputTrianguloBasePerimetro">Medida de la base:</label>
+        <input type="number" name="" id="inputTrianguloBasePerimetro" />
+        <label for="inputTrianguloAlturaPerimetro">Medida de la altura:</label>
+        <input type="number" name="" id="inputTrianguloAlturaPerimetro" />
+        <input type="button" value="Calcular el área" id="areaTriangulo" />
+      </form>
+      <h2>Calcula el diámetro, el perímetro y el área de un círculo</h2>
+      <form action="">
+        <label for="radioCirculo">Medida del radio:</label>
+        <input type="number" name="" id="radioCirculo" />
+        <input type="button" value="Calcular el diámetro" id="diametroBoton" />
+        <input type="button" value="Calcular el perímetro" id="perimetroBoton" />
+        <input type="button" value="Calcular el área" id="areaBoton" />
+      </form>
+    </section>
+    <script src="figuras2.js"></script>
+  </body>
+</html>
